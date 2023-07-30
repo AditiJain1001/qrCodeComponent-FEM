@@ -1,0 +1,53 @@
+* {
+  background-color: hsl(212, 45%, 89%);
+  overflow: hidden;
+}
+
+.container {
+    /* position: relative; */
+    background-color: white;
+    border-radius: 0.8rem;
+    max-height: 30rem;
+    max-width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .725rem;
+    margin: 100px auto;
+}
+
+.container p, h3 {
+    /* position: absolute; */
+    background-color: white;
+    text-align: center;
+    font-family: Outfit;
+}
+.container h3 {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 0;
+}
+
+.container p {
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(220, 15%, 55%)
+}
+
+.qr-code {
+    /* position: absolute; */
+    max-height: 20rem;
+    border-radius: 0.6rem;
+  }
+
+
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+  font-size: 13px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} 
